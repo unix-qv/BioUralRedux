@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  .perspective-1200 {
+    perspective: 1200px;
+  }
+  .transform-style-3d {
+    transform-style: preserve-3d;
+  }
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+}
+
+/* Distinctive rounded geometric font matching screenshot (Comfortaa) */
+.font-display {
+  font-family: 'Comfortaa', 'Montserrat', -apple-system, sans-serif;
+  font-weight: 700;
+}
+
+.font-body {
+  font-family: 'Comfortaa', 'Plus Jakarta Sans', -apple-system, sans-serif;
+}
+
+/* Crisp box-drawing line font */
+.font-boxlines {
+  font-family: 'Consolas', 'Courier New', 'SFMono-Regular', Menlo, Monaco, monospace;
+}

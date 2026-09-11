@@ -1,0 +1,6 @@
+{
+  "name": "Speh1k 3D Bio Card",
+  "description": "Aesthetic 3D interactive glassmorphic bio profile card with tilt effect and video background",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
